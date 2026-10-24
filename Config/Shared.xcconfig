@@ -1,0 +1,7 @@
+// Shared build settings for all targets.
+// Personal signing settings live in Local.xcconfig (gitignored).
+// Copy Local.xcconfig.example to Local.xcconfig and set your team ID.
+
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"
